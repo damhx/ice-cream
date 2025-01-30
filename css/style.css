@@ -56,3 +56,43 @@ header{
 .header_menu img{
     
 }
+
+/********** main *********/
+
+main{
+    background: green;
+    padding: 45px 75px 0 75px;
+}
+
+.section_container{
+    background: blue;
+    justify-content: space-between;
+    display: flex
+}
+
+.article_jumping{
+    width: 679px;
+    background: violet;
+    display: flex;
+    flex-direction: column;
+}
+
+.article_jumping h1{
+    color: var(--color-1);
+    font-family: "Poppins-SemiBold";
+    font-size: 120px;
+    line-height: 110px;
+}
+
+.article_jumping p{
+
+}
+
+.div_buttons{
+    background: rebeccapurple;
+    display:flex;
+}
+
+.div_buttons a{
+
+}
