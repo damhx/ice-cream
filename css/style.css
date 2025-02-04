@@ -6,7 +6,10 @@
 }
 
 body{
-    background-color: var(--color-8);
+    background-image: url(../storage/img/background.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: top center;
 }
 
 header{
@@ -60,19 +63,27 @@ header{
 /********** main *********/
 
 main{
-    background: green;
+    /* background: green; */
     padding: 45px 75px 0 75px;
 }
 
 .section_container{
-    background: blue;
+    /* background: blue; */
     justify-content: space-between;
-    display: flex
+    display: flex;
+    margin-top: 111px;
+}
+
+.section_container article:nth-child(2){
+    /* background: blue; */
+    display: flex;
+    flex-direction: column;
+    gap: 47px;
 }
 
 .article_jumping{
     width: 679px;
-    background: violet;
+    /* background: violet; */
     display: flex;
     flex-direction: column;
 }
@@ -81,18 +92,203 @@ main{
     color: var(--color-1);
     font-family: "Poppins-SemiBold";
     font-size: 120px;
-    line-height: 110px;
+    line-height: 91.4%;
 }
 
 .article_jumping p{
-
+    margin-top: 26px;
+    font-family: "Poppins-Medium";
+    font-size: 24px;
+    color: var(--color-6);
+    line-height: 123%;
 }
 
 .div_buttons{
-    background: rebeccapurple;
+    /* background: rebeccapurple; */
     display:flex;
+    margin-top: 26px;
+    gap: 38px;
 }
 
 .div_buttons a{
+    width: 264px;
+    height: 86px;
+    border-radius: 14px;
+    outline: 1px solid var(--color-1);
+    background: transparent;
+    font-family: "Poppins-Thin";
+    font-size: 32px;
+    font-weight: 900;
+    text-align: center;
+    color: var(--color-1);
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
+.div_buttons:hover a:hover{
+    border: none;
+    backdrop-filter: blur(24px);
+}
+
+.article_reviews {
+    /* background: red; */
+    padding: 20px;
+}
+
+.div_reviews_container {
+    background: var(--color-1);
+    padding: 20px;
+    width: 345px;
+    height: 202px;
+    border-radius: 18px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.div_reviews_cards{
+    /* background: green; */
+    /* padding: 20px; */
+
+}
+
+.div_reviews_profile{
+    /* background: violet; */
+    /* padding: 20px; */
+    display: flex;
+    /* justify-content: space-between; */
+    /* align-items: center; */ 
+    gap: 16px;
+}
+
+.div_reviews_profile p{
+    font-family: "Poppins-Medium";
+}
+
+.div_reviews_profile img{
+    /* background: orange; */
+    /* padding: 20px; */
+    object-fit: contain;
+}
+
+.div_reviews_cards p{
+    font-family: "Poppins-Medium";
+    font-size: 18px;
+    text-align: justify;
+    margin-top: 12px;
+    color: var(--color-7);
+    width: 277px;
+}
+
+.div_reviews_rating{
+    /* background: yellow; */
+    /* padding: 20px; */
+}
+
+.div_reviews_rating h3{
+    color: var(--color-2);
+    font-family: "Poppins-Medium";
+    font-size: 28px;
+}
+
+.div_reviews_rating p{
+    font-family: 'Poppins-Medium';
+}
+
+.div_reviews_stars{
+    /* background: olive; */
+    /* margin-top: 5px; */
+}
+
+.div_reviews_stars img{
+    /* background: turquoise; */
+    padding: 0px;
+}
+
+.div_choose-type{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+
+}
+
+.div_choose-type h3{
+    color: var(--color-1);
+    font-size: 20px;
+    font-family: "Poppins-Medium";
+}
+
+.div_choose-type-buttons{
+    display: flex;
+    justify-content: space-between;
+}
+
+.div_choose-type-buttons a{
+    width: 64px;
+    height: 64px;
+    border-radius: 14px;
+    outline: none;
+    background: var(--color-5);
+    font-family: "Poppins-Thin";
+    font-size: 32px;
+    font-weight: 900;
+    text-align: center;
+    color: var(--color-1);
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    backdrop-filter: blur(3px);
+}
+
+.section_container-products {
+    display: flex;
+    flex-direction: column;
+}
+
+.article_products{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    gap: 52px;
+}
+
+.div_trendy {
+}
+
+.div_trendy h2{
+}
+
+.div_trendy img{
+}
+
+.form_container-product {
+    width: 690px;
+    height: 324px;
+}
+
+.form_container-product img{
+}
+
+.div_product {
+}
+
+.div_product h3{
+}
+
+.div_product label{
+}
+
+.div_type-order {
+}
+
+.div_type-order input[type="submit"]{
+}
+
+.div_product_amount {
+}
+
+.div_product_amount input[type="submit"]{
 }
