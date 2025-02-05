@@ -250,9 +250,10 @@ main{
 
 .article_products{
     display: flex;
-    justify-content: space-between;
+    justify-content: space-evenly;
     flex-wrap: wrap;
-    gap: 52px;
+    column-gap: 52px;
+    row-gap: 59px;
 }
 
 .div_trendy {
@@ -267,15 +268,25 @@ main{
 .form_container-product {
     width: 690px;
     height: 324px;
+    display: flex;
+    position: relative;
+    overflow: hidden;
+    align-items: center;
+    border-radius: 24px;
+    outline: 1px solid var(--color-1);
 }
 
 .form_container-product img{
+    width: 217px;
+    height: 217px;
 }
 
-.div_product {
+.div_product{
 }
 
 .div_product h3{
+    font-family: "Poppins-Medium";
+    color: var(--color-1);
 }
 
 .div_product label{
