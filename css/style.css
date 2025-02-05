@@ -450,19 +450,20 @@ main{
     align-items: center;
 }
 
-.div_product_amount {
+.div_product_amount{
     width: 309px;
     display: flex;
     justify-content: space-between;
 }
 
-.div_product-amount label{
+.div_product_amount label{
     color: var(--color-1);
     font-family: "Poppins-Regular";
     font-size: 28px;
 }
 
 .div_product_amount input[type="submit"]{
+    
 }
 
 footer{
